@@ -1,6 +1,6 @@
 {
   "name": "@deidee/delink",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Een stijlblad dat automatisch relevante merkkleuren toepast op externe hyperlinks.",
   "main": "index.js",
   "scripts": {
