@@ -1,4 +1,11 @@
 
+@import "@deidee/dejade/scss/dejade";
+@import "@deidee/hetpalet/scss/hetpalet";
+
 a {
-  color: blue;
+  &[href*="deid.nl"],
+  &[href*="deidee.com"],
+  &[href*="deidee.nl"] {
+    color: var(--dejade);
+  }
 }

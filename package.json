@@ -9,6 +9,7 @@
   "author": "",
   "license": "UNLICENSED",
   "devDependencies": {
+    "@deidee/dejade": "^2.1.1",
     "@deidee/desass": "^0.9.0",
     "@deidee/hetpalet": "^1.4.0",
     "brand-colors": "^2.1.1",
