@@ -2,12 +2,14 @@
 @import "@deidee/dejade/scss/dejade";
 @import "@deidee/hetpalet/scss/hetpalet";
 
-$domains: "deid.nl", "deidee.com", "deidee.nl", "demail.nl", "denous.nl";
+%delink {
+  color: var(--dejade);
+}
 
-a {
-  @each $domain in $domains {
-    &[href*="#{$domain}"] {
-      color: var(--dejade);
-    }
+$domains: "deid.nl", "deidee.com", "deidee.nl", "deidentiteit", "delogo.nl", "demail.nl", "denous.nl";
+
+@each $domain in $domains {
+  a[href*="#{$domain}"] {
+    @extend %delink;
   }
 }
